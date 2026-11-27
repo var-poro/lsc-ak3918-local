@@ -1,0 +1,16 @@
+# Never commit device-specific secrets, backups or firmware images.
+cam.env
+*.sqfs
+*.bin
+flash_backup/
+camera-backup/
+**/tuya/tuya_user.db
+**/tuya/tuya_enckey.db
+**/tuya/param.conf
+*.jpg
+*.png
+heap.bin
+bss.bin
+arena.bin
+.venv/
+__pycache__/
