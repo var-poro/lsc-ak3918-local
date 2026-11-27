@@ -14,3 +14,8 @@ bss.bin
 arena.bin
 .venv/
 __pycache__/
+
+# bridge secrets
+*.env
+mqtt-bridge-pass.txt
+state.json
